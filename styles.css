@@ -456,3 +456,10 @@ footer{
   .sidebar{grid-template-columns:1fr}
   .bar-row{grid-template-columns:100px 1fr 90px}
 }
+
+.post-original{
+  margin-top:5px;
+  color:#8b949c;
+  font-size:.68rem;
+  line-height:1.45;
+}

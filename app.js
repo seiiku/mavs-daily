@@ -33,7 +33,8 @@ async function load(){
     <div class="post-date-block">${esc(formatDate(n.published))}</div>
     <div>
       <div class="post-source">${esc(n.source)}</div>
-      <div class="post-title">${esc(n.title)}</div>
+      <div class="post-title">${esc(n.title_ja || n.title)}</div>
+      ${n.title_ja && n.title ? `<div class="post-original">${esc(n.title)}</div>` : ``}
     </div>
   </a>`).join("");
 
