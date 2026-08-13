@@ -1,0 +1,82 @@
+{
+  "source": "ESPN / NBA.com",
+  "players": [
+    {
+      "number": "—",
+      "name": "Kyrie Irving",
+      "position": "PG",
+      "age": 34,
+      "status": "Active"
+    },
+    {
+      "number": "—",
+      "name": "Cooper Flagg",
+      "position": "F",
+      "age": 20,
+      "status": "Active"
+    },
+    {
+      "number": "—",
+      "name": "Klay Thompson",
+      "position": "SG",
+      "age": 36,
+      "status": "Active"
+    },
+    {
+      "number": "—",
+      "name": "P.J. Washington",
+      "position": "PF",
+      "age": 28,
+      "status": "Active"
+    },
+    {
+      "number": "—",
+      "name": "Daniel Gafford",
+      "position": "C",
+      "age": 28,
+      "status": "Active"
+    },
+    {
+      "number": "—",
+      "name": "Naji Marshall",
+      "position": "SF",
+      "age": 28,
+      "status": "Active"
+    },
+    {
+      "number": "—",
+      "name": "Max Christie",
+      "position": "G",
+      "age": 23,
+      "status": "Active"
+    },
+    {
+      "number": "—",
+      "name": "Santi Aldama",
+      "position": "F-C",
+      "age": 25,
+      "status": "Active"
+    },
+    {
+      "number": "—",
+      "name": "Zaccharie Risacher",
+      "position": "SF",
+      "age": 21,
+      "status": "Active"
+    },
+    {
+      "number": "14",
+      "name": "Morez Johnson Jr.",
+      "position": "F",
+      "age": 20,
+      "status": "Active"
+    },
+    {
+      "number": "33",
+      "name": "Tobi Lawal",
+      "position": "F",
+      "age": 23,
+      "status": "Two-way"
+    }
+  ]
+}

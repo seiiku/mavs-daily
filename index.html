@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MAVS DAILY | Dallas Mavericks Fan Site</title>
+  <meta name="description" content="Dallas Mavericksの最新ニュース、順位、ロースター、スタッツ、サラリー、ドラフト資産を毎日更新する非公式ファンサイト。">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="masthead">
+  <div class="masthead-inner">
+    <a class="brand" href="index.html"><span class="brand-mark">M</span><span>MAVS DAILY</span></a>
+    <div class="masthead-meta"><span>UNOFFICIAL</span><span id="updated">Loading…</span></div>
+  </div>
+</header>
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="#top">TOP</a><a href="#news">NEWS</a><a href="#team">ROSTER</a>
+    <a href="#stats">STATS</a><a href="#salary">SALARY</a><a href="#draft">DRAFT</a>
+  </div>
+</nav>
+
+<main id="top">
+  <section class="lead-grid">
+    <div class="lead-story">
+      <div class="eyebrow">DALLAS MAVERICKS</div>
+      <h1>Everything Mavs.<br><span>Every day.</span></h1>
+      <p>最新ニュース、チーム状況、選手データ、契約・ドラフト資産を1か所で。</p>
+      <div id="hero-record" class="hero-record"></div>
+    </div>
+
+    <aside class="scoreboard">
+      <div class="score-title">TEAM SNAPSHOT</div>
+      <div id="snapshot"></div>
+    </aside>
+  </section>
+
+  <section id="news">
+    <div class="section-title-row"><h2>Top Stories</h2><span>LATEST NEWS</span></div>
+    <div id="news-grid" class="news-grid"></div>
+  </section>
+
+  <section id="team">
+    <div class="section-title-row"><h2>Roster</h2><span>CLICK A PLAYER</span></div>
+    <div id="player-grid" class="player-grid"></div>
+  </section>
+
+  <section class="two-col-section">
+    <div id="stats">
+      <div class="section-title-row"><h2>Team Leaders</h2><span>PLAYER STATS</span></div>
+      <div id="leaders" class="leader-list"></div>
+    </div>
+    <div>
+      <div class="section-title-row"><h2>Recent Games</h2><span>RESULTS</span></div>
+      <div id="games" class="panel"></div>
+    </div>
+  </section>
+
+  <section id="salary">
+    <div class="section-title-row"><h2>Salary Board</h2><span>2026-27 CAP HITS</span></div>
+    <div class="panel">
+      <div id="salary-bars"></div>
+    </div>
+  </section>
+
+  <section id="draft">
+    <div class="section-title-row"><h2>Draft Assets</h2><span>FUTURE PICKS</span></div>
+    <div id="draft-grid" class="draft-grid"></div>
+  </section>
+
+  <section class="editorial">
+    <div class="eyebrow">EDITOR'S NOTE</div>
+    <h2>今日のMavs</h2>
+    <p id="take-text"></p>
+    <div id="take-date" class="note-date"></div>
+  </section>
+</main>
+
+<footer>
+  <div>MAVS DAILY — Unofficial fan site. Not affiliated with the Dallas Mavericks or NBA.</div>
+</footer>
+<script src="app.js"></script>
+</body>
+</html>

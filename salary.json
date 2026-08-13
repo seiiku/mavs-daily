@@ -1,0 +1,75 @@
+{
+  "source": "Spotrac",
+  "summary": {
+    "salary_cap": 154647000,
+    "active_roster": 172434433,
+    "total_allocations": 198582307,
+    "first_apron": 195945000,
+    "second_apron": 207824000
+  },
+  "players": [
+    {
+      "name": "Kyrie Irving",
+      "position": "PG",
+      "cap_hit": 39491282,
+      "cap_pct": "23.79%",
+      "through": "2027-28"
+    },
+    {
+      "name": "P.J. Washington",
+      "position": "PF",
+      "cap_hit": 19813044,
+      "cap_pct": "11.94%",
+      "through": "2029-30"
+    },
+    {
+      "name": "Klay Thompson",
+      "position": "SG",
+      "cap_hit": 17460317,
+      "cap_pct": "10.52%",
+      "through": "2026-27"
+    },
+    {
+      "name": "Daniel Gafford",
+      "position": "C",
+      "cap_hit": 17263584,
+      "cap_pct": "10.40%",
+      "through": "2028-29"
+    },
+    {
+      "name": "Santi Aldama",
+      "position": "C",
+      "cap_hit": 17007043,
+      "cap_pct": "—",
+      "through": "—"
+    },
+    {
+      "name": "Cooper Flagg",
+      "position": "SF",
+      "cap_hit": 14517480,
+      "cap_pct": "8.75%",
+      "through": "2028-29"
+    },
+    {
+      "name": "Zaccharie Risacher",
+      "position": "SF",
+      "cap_hit": 13826040,
+      "cap_pct": "—",
+      "through": "—"
+    },
+    {
+      "name": "Caleb Martin",
+      "position": "SF",
+      "cap_hit": 10001494,
+      "cap_pct": "6.03%",
+      "through": "2027-28"
+    },
+    {
+      "name": "Naji Marshall",
+      "position": "SF",
+      "cap_hit": 9428571,
+      "cap_pct": "—",
+      "through": "2026-27"
+    }
+  ]
+}

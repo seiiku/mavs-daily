@@ -1,0 +1,213 @@
+{
+  "players": [
+    {
+      "name": "Kyrie Irving",
+      "slug": "kyrie-irving",
+      "number": "—",
+      "position": "PG",
+      "age": 34,
+      "status": "Active",
+      "cap_hit": 39491282,
+      "cap_pct": "23.79%",
+      "contract_through": "2027-28",
+      "stats": {
+        "gp": "—",
+        "pts": "—",
+        "reb": "—",
+        "ast": "—",
+        "fg": "—",
+        "three": "—"
+      }
+    },
+    {
+      "name": "Cooper Flagg",
+      "slug": "cooper-flagg",
+      "number": "—",
+      "position": "F",
+      "age": 20,
+      "status": "Active",
+      "cap_hit": 14517480,
+      "cap_pct": "8.75%",
+      "contract_through": "2028-29",
+      "stats": {
+        "gp": "—",
+        "pts": "—",
+        "reb": "—",
+        "ast": "—",
+        "fg": "—",
+        "three": "—"
+      }
+    },
+    {
+      "name": "Klay Thompson",
+      "slug": "klay-thompson",
+      "number": "—",
+      "position": "SG",
+      "age": 36,
+      "status": "Active",
+      "cap_hit": 17460317,
+      "cap_pct": "10.52%",
+      "contract_through": "2026-27",
+      "stats": {
+        "gp": "—",
+        "pts": "—",
+        "reb": "—",
+        "ast": "—",
+        "fg": "—",
+        "three": "—"
+      }
+    },
+    {
+      "name": "P.J. Washington",
+      "slug": "p-j-washington",
+      "number": "—",
+      "position": "PF",
+      "age": 28,
+      "status": "Active",
+      "cap_hit": 19813044,
+      "cap_pct": "11.94%",
+      "contract_through": "2029-30",
+      "stats": {
+        "gp": "—",
+        "pts": "—",
+        "reb": "—",
+        "ast": "—",
+        "fg": "—",
+        "three": "—"
+      }
+    },
+    {
+      "name": "Daniel Gafford",
+      "slug": "daniel-gafford",
+      "number": "—",
+      "position": "C",
+      "age": 28,
+      "status": "Active",
+      "cap_hit": 17263584,
+      "cap_pct": "10.40%",
+      "contract_through": "2028-29",
+      "stats": {
+        "gp": "—",
+        "pts": "—",
+        "reb": "—",
+        "ast": "—",
+        "fg": "—",
+        "three": "—"
+      }
+    },
+    {
+      "name": "Naji Marshall",
+      "slug": "naji-marshall",
+      "number": "—",
+      "position": "SF",
+      "age": 28,
+      "status": "Active",
+      "cap_hit": 9428571,
+      "cap_pct": "—",
+      "contract_through": "2026-27",
+      "stats": {
+        "gp": "—",
+        "pts": "—",
+        "reb": "—",
+        "ast": "—",
+        "fg": "—",
+        "three": "—"
+      }
+    },
+    {
+      "name": "Max Christie",
+      "slug": "max-christie",
+      "number": "—",
+      "position": "G",
+      "age": 23,
+      "status": "Active",
+      "cap_hit": null,
+      "cap_pct": "—",
+      "contract_through": "—",
+      "stats": {
+        "gp": "—",
+        "pts": "—",
+        "reb": "—",
+        "ast": "—",
+        "fg": "—",
+        "three": "—"
+      }
+    },
+    {
+      "name": "Santi Aldama",
+      "slug": "santi-aldama",
+      "number": "—",
+      "position": "F-C",
+      "age": 25,
+      "status": "Active",
+      "cap_hit": 17007043,
+      "cap_pct": "—",
+      "contract_through": "—",
+      "stats": {
+        "gp": "—",
+        "pts": "—",
+        "reb": "—",
+        "ast": "—",
+        "fg": "—",
+        "three": "—"
+      }
+    },
+    {
+      "name": "Zaccharie Risacher",
+      "slug": "zaccharie-risacher",
+      "number": "—",
+      "position": "SF",
+      "age": 21,
+      "status": "Active",
+      "cap_hit": 13826040,
+      "cap_pct": "—",
+      "contract_through": "—",
+      "stats": {
+        "gp": "—",
+        "pts": "—",
+        "reb": "—",
+        "ast": "—",
+        "fg": "—",
+        "three": "—"
+      }
+    },
+    {
+      "name": "Morez Johnson Jr.",
+      "slug": "morez-johnson-jr",
+      "number": "14",
+      "position": "F",
+      "age": 20,
+      "status": "Active",
+      "cap_hit": null,
+      "cap_pct": "—",
+      "contract_through": "—",
+      "stats": {
+        "gp": "—",
+        "pts": "—",
+        "reb": "—",
+        "ast": "—",
+        "fg": "—",
+        "three": "—"
+      }
+    },
+    {
+      "name": "Tobi Lawal",
+      "slug": "tobi-lawal",
+      "number": "33",
+      "position": "F",
+      "age": 23,
+      "status": "Two-way",
+      "cap_hit": null,
+      "cap_pct": "—",
+      "contract_through": "—",
+      "stats": {
+        "gp": "—",
+        "pts": "—",
+        "reb": "—",
+        "ast": "—",
+        "fg": "—",
+        "three": "—"
+      }
+    }
+  ]
+}

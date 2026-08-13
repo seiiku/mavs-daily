@@ -1,0 +1,66 @@
+{
+  "years": [
+    {
+      "year": 2027,
+      "picks": [
+        {
+          "round": "1st",
+          "detail": "Own if pick lands 1–2; otherwise conveys to Charlotte."
+        },
+        {
+          "round": "2nd",
+          "detail": "Protected incoming 2nd-round pick from Atlanta (top-55 protected)."
+        }
+      ]
+    },
+    {
+      "year": 2028,
+      "picks": [
+        {
+          "round": "1st",
+          "detail": "Dallas/OKC swap structure applies; Dallas does not have clean control of its own pick."
+        }
+      ]
+    },
+    {
+      "year": 2029,
+      "picks": [
+        {
+          "round": "1st",
+          "detail": "Complicated DAL/HOU/PHX swap/conveyance structure; Lakers 1st is also in Dallas' asset picture."
+        },
+        {
+          "round": "2nd",
+          "detail": "Additional second-round obligations/assets may apply."
+        }
+      ]
+    },
+    {
+      "year": 2030,
+      "picks": [
+        {
+          "round": "1st",
+          "detail": "Swap/conveyance protections apply; treat as encumbered rather than a clean own pick."
+        }
+      ]
+    },
+    {
+      "year": 2031,
+      "picks": [
+        {
+          "round": "1st",
+          "detail": "Own first-round pick currently projects as available."
+        }
+      ]
+    },
+    {
+      "year": 2032,
+      "picks": [
+        {
+          "round": "1st",
+          "detail": "Own first-round pick currently projects as available."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "season": "2025-26 final",
+  "teams": [
+    {
+      "rank": 1,
+      "team": "Oklahoma City Thunder",
+      "abbr": "OKC",
+      "record": "64-18"
+    },
+    {
+      "rank": 2,
+      "team": "San Antonio Spurs",
+      "abbr": "SAS",
+      "record": "62-20"
+    },
+    {
+      "rank": 3,
+      "team": "Denver Nuggets",
+      "abbr": "DEN",
+      "record": "54-28"
+    },
+    {
+      "rank": 4,
+      "team": "Los Angeles Lakers",
+      "abbr": "LAL",
+      "record": "53-29"
+    },
+    {
+      "rank": 5,
+      "team": "Houston Rockets",
+      "abbr": "HOU",
+      "record": "52-30"
+    },
+    {
+      "rank": 6,
+      "team": "Minnesota Timberwolves",
+      "abbr": "MIN",
+      "record": "49-33"
+    },
+    {
+      "rank": 7,
+      "team": "Phoenix Suns",
+      "abbr": "PHX",
+      "record": "45-37"
+    },
+    {
+      "rank": 8,
+      "team": "Portland Trail Blazers",
+      "abbr": "POR",
+      "record": "42-40"
+    },
+    {
+      "rank": 9,
+      "team": "LA Clippers",
+      "abbr": "LAC",
+      "record": "42-40"
+    },
+    {
+      "rank": 10,
+      "team": "Golden State Warriors",
+      "abbr": "GSW",
+      "record": "37-45"
+    },
+    {
+      "rank": 11,
+      "team": "New Orleans Pelicans",
+      "abbr": "NOP",
+      "record": "26-56"
+    },
+    {
+      "rank": 12,
+      "team": "Dallas Mavericks",
+      "abbr": "DAL",
+      "record": "26-56"
+    },
+    {
+      "rank": 13,
+      "team": "Memphis Grizzlies",
+      "abbr": "MEM",
+      "record": "25-57"
+    },
+    {
+      "rank": 14,
+      "team": "Sacramento Kings",
+      "abbr": "SAC",
+      "record": "22-60"
+    },
+    {
+      "rank": 15,
+      "team": "Utah Jazz",
+      "abbr": "UTA",
+      "record": "22-60"
+    }
+  ]
+}
