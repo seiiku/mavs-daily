@@ -5,11 +5,7 @@
       "picks": [
         {
           "round": "1st",
-          "detail": "Own if pick lands 1–2; otherwise conveys to Charlotte."
-        },
-        {
-          "round": "2nd",
-          "detail": "Protected incoming 2nd-round pick from Atlanta (top-55 protected)."
+          "detail": "ダラスの1巡目指名権にはプロテクションや譲渡条件が付いています。"
         }
       ]
     },
@@ -18,7 +14,7 @@
       "picks": [
         {
           "round": "1st",
-          "detail": "Dallas/OKC swap structure applies; Dallas does not have clean control of its own pick."
+          "detail": "スワップ権や過去のトレード条件により、ダラスが完全に自由に扱える指名権ではありません。"
         }
       ]
     },
@@ -27,11 +23,7 @@
       "picks": [
         {
           "round": "1st",
-          "detail": "Complicated DAL/HOU/PHX swap/conveyance structure; Lakers 1st is also in Dallas' asset picture."
-        },
-        {
-          "round": "2nd",
-          "detail": "Additional second-round obligations/assets may apply."
+          "detail": "複数のスワップ・譲渡条件があるため、トレード評価時には最新条件の確認が必要です。"
         }
       ]
     },
@@ -40,7 +32,7 @@
       "picks": [
         {
           "round": "1st",
-          "detail": "Swap/conveyance protections apply; treat as encumbered rather than a clean own pick."
+          "detail": "将来の1巡目指名権ですが、既存のスワップ・譲渡条件の影響を受けます。"
         }
       ]
     },
@@ -49,7 +41,7 @@
       "picks": [
         {
           "round": "1st",
-          "detail": "Own first-round pick currently projects as available."
+          "detail": "現時点では自前の1巡目指名権を保有する見込みです。"
         }
       ]
     },
@@ -58,7 +50,7 @@
       "picks": [
         {
           "round": "1st",
-          "detail": "Own first-round pick currently projects as available."
+          "detail": "現時点では自前の1巡目指名権を保有する見込みです。"
         }
       ]
     }

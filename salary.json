@@ -1,75 +1,72 @@
 {
-  "source": "Spotrac",
+  "source": "Spotrac / ESPN, checked 2026-08-13",
   "summary": {
-    "salary_cap": 154647000,
-    "active_roster": 172434433,
-    "total_allocations": 198582307,
-    "first_apron": 195945000,
-    "second_apron": 207824000
+    "salary_cap": 164961000,
+    "active_roster": 194654879,
+    "total_allocations": 224436373,
+    "first_apron": 209015000,
+    "second_apron": 221686000
   },
   "players": [
     {
       "name": "Kyrie Irving",
-      "position": "PG",
-      "cap_hit": 39491282,
-      "cap_pct": "23.79%",
-      "through": "2027-28"
+      "position": "G",
+      "cap_hit": 39416562
     },
     {
       "name": "P.J. Washington",
-      "position": "PF",
-      "cap_hit": 19813044,
-      "cap_pct": "11.94%",
-      "through": "2029-30"
+      "position": "F",
+      "cap_hit": 19813044
     },
     {
       "name": "Klay Thompson",
-      "position": "SG",
-      "cap_hit": 17460317,
-      "cap_pct": "10.52%",
-      "through": "2026-27"
+      "position": "G",
+      "cap_hit": 17460317
     },
     {
       "name": "Daniel Gafford",
-      "position": "C",
-      "cap_hit": 17263584,
-      "cap_pct": "10.40%",
-      "through": "2028-29"
+      "position": "F/C",
+      "cap_hit": 17263584
     },
     {
       "name": "Santi Aldama",
-      "position": "C",
-      "cap_hit": 17007043,
-      "cap_pct": "—",
-      "through": "—"
+      "position": "F",
+      "cap_hit": 17007043
     },
     {
       "name": "Cooper Flagg",
-      "position": "SF",
-      "cap_hit": 14517480,
-      "cap_pct": "8.75%",
-      "through": "2028-29"
+      "position": "F",
+      "cap_hit": 14517480
     },
     {
       "name": "Zaccharie Risacher",
-      "position": "SF",
-      "cap_hit": 13826040,
-      "cap_pct": "—",
-      "through": "—"
+      "position": "F",
+      "cap_hit": 13826040
     },
     {
       "name": "Caleb Martin",
-      "position": "SF",
-      "cap_hit": 10001494,
-      "cap_pct": "6.03%",
-      "through": "2027-28"
+      "position": "F",
+      "cap_hit": 10001494
     },
     {
       "name": "Naji Marshall",
-      "position": "SF",
-      "cap_hit": 9428571,
-      "cap_pct": "—",
-      "through": "2026-27"
+      "position": "F",
+      "cap_hit": 9428571
+    },
+    {
+      "name": "Max Christie",
+      "position": "G",
+      "cap_hit": 8285714
+    },
+    {
+      "name": "Dereck Lively II",
+      "position": "C",
+      "cap_hit": 7239130
+    },
+    {
+      "name": "Marcus Sasser",
+      "position": "G",
+      "cap_hit": 5198983
     }
   ]
 }

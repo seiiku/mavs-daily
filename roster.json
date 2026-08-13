@@ -1,82 +1,165 @@
 {
-  "source": "ESPN / NBA.com",
+  "source": "ESPN roster, checked 2026-08-13",
   "players": [
     {
       "number": "—",
-      "name": "Kyrie Irving",
-      "position": "PG",
-      "age": 34,
-      "status": "Active"
-    },
-    {
-      "number": "—",
-      "name": "Cooper Flagg",
+      "name": "Santi Aldama",
       "position": "F",
-      "age": 20,
-      "status": "Active"
+      "age": 25,
+      "status": "Active",
+      "salary": 17007043
     },
     {
       "number": "—",
-      "name": "Klay Thompson",
-      "position": "SG",
-      "age": 36,
-      "status": "Active"
+      "name": "Tarik Biberovic",
+      "position": "F",
+      "age": 25,
+      "status": "Active",
+      "salary": null
     },
     {
-      "number": "—",
-      "name": "P.J. Washington",
-      "position": "PF",
-      "age": 28,
-      "status": "Active"
-    },
-    {
-      "number": "—",
-      "name": "Daniel Gafford",
-      "position": "C",
-      "age": 28,
-      "status": "Active"
-    },
-    {
-      "number": "—",
-      "name": "Naji Marshall",
-      "position": "SF",
-      "age": 28,
-      "status": "Active"
-    },
-    {
-      "number": "—",
+      "number": "00",
       "name": "Max Christie",
       "position": "G",
       "age": 23,
-      "status": "Active"
+      "status": "Active",
+      "salary": 8285714
+    },
+    {
+      "number": "30",
+      "name": "Moussa Cisse",
+      "position": "C",
+      "age": 23,
+      "status": "Active",
+      "salary": null
+    },
+    {
+      "number": "55",
+      "name": "Sergio de Larrea",
+      "position": "F",
+      "age": 20,
+      "status": "Active",
+      "salary": null
+    },
+    {
+      "number": "32",
+      "name": "Cooper Flagg",
+      "position": "F",
+      "age": 19,
+      "status": "Active",
+      "salary": 14517480
+    },
+    {
+      "number": "21",
+      "name": "Daniel Gafford",
+      "position": "F/C",
+      "age": 27,
+      "status": "Active",
+      "salary": 17263584
+    },
+    {
+      "number": "13",
+      "name": "Jett Howard",
+      "position": "G/F",
+      "age": 22,
+      "status": "Two-way",
+      "salary": null
+    },
+    {
+      "number": "11",
+      "name": "Kyrie Irving",
+      "position": "G",
+      "age": 34,
+      "status": "Injured",
+      "salary": 39416562
     },
     {
       "number": "—",
-      "name": "Santi Aldama",
-      "position": "F-C",
-      "age": 25,
-      "status": "Active"
-    },
-    {
-      "number": "—",
-      "name": "Zaccharie Risacher",
-      "position": "SF",
+      "name": "Vsevolod Ishchenko",
+      "position": "G/F",
       "age": 21,
-      "status": "Active"
+      "status": "Active",
+      "salary": null
     },
     {
       "number": "14",
       "name": "Morez Johnson Jr.",
       "position": "F",
       "age": 20,
-      "status": "Active"
+      "status": "Active",
+      "salary": null
     },
     {
-      "number": "33",
+      "number": "—",
       "name": "Tobi Lawal",
       "position": "F",
       "age": 23,
-      "status": "Two-way"
+      "status": "Two-way",
+      "salary": null
+    },
+    {
+      "number": "2",
+      "name": "Dereck Lively II",
+      "position": "C",
+      "age": 22,
+      "status": "Active",
+      "salary": 7239130
+    },
+    {
+      "number": "3",
+      "name": "Naji Marshall",
+      "position": "F",
+      "age": 28,
+      "status": "Active",
+      "salary": 9428571
+    },
+    {
+      "number": "16",
+      "name": "Caleb Martin",
+      "position": "F",
+      "age": 30,
+      "status": "Active",
+      "salary": 10001494
+    },
+    {
+      "number": "1",
+      "name": "John Poulakidas",
+      "position": "G",
+      "age": 23,
+      "status": "Active",
+      "salary": null
+    },
+    {
+      "number": "10",
+      "name": "Zaccharie Risacher",
+      "position": "F",
+      "age": 21,
+      "status": "Active",
+      "salary": 13826040
+    },
+    {
+      "number": "25",
+      "name": "Marcus Sasser",
+      "position": "G",
+      "age": 25,
+      "status": "Active",
+      "salary": 5198983
+    },
+    {
+      "number": "31",
+      "name": "Klay Thompson",
+      "position": "G",
+      "age": 36,
+      "status": "Active",
+      "salary": 17460317
+    },
+    {
+      "number": "25",
+      "name": "P.J. Washington",
+      "position": "F",
+      "age": 27,
+      "status": "Active",
+      "salary": 19813044
     }
   ]
 }

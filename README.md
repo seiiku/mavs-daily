@@ -1,32 +1,14 @@
-# MAVS DAILY v2
+# MAVS日記 v5
 
-Dallas Mavericksの非公式個人ファンサイト。
+日本語化＋個人ブログ風デザイン版です。
 
-## 追加済み
-- 最新ニュース
-- 西地区順位
-- 直近試合
-- 最新ロースター
-- 選手別スタッツ欄
-- 2026-27 salary cap / cap hit
-- サラリー棒グラフ
-- 将来ドラフト指名権
-- `data/take.json` で編集できる「今日のMavs」
-- GitHub Actionsによる毎日自動更新
+## 主な変更
+- サイト全体を日本語化
+- スポーツニュースサイト風から個人ブログ風へ変更
+- 2カラム構成
+- 左：今日のMavs、最新ニュース、スタッツ、選手名鑑、サラリー、ドラフト
+- 右：チーム概要、西地区順位、チームリーダー
+- 選手個別ページも日本語化
+- 表示に必要なJSONはルート直下のままなので、GitHub Web Uploadでも動作
 
-## 公開
-GitHub repositoryへこのフォルダの中身をpushし、Settings → Pages → Deploy from a branch → main / root。
-
-## 今日のMavsを編集
-`data/take.json` の `text` と `date` を書き換えてcommitするだけです。
-
-## 注意
-Stats / draft assets / salaryは外部サイトの仕様変更で自動取得できない場合があります。
-失敗時は既存JSONを保持するfail-safe設計です。
-
-
-## v3 additions
-- Sports-media style top page
-- Clickable roster cards
-- Individual player profile pages
-- Player salary / contract / stat overview
+既存の `mavs-daily` repositoryに、このZIPを展開した中身を上書きアップロードしてください。

@@ -1,86 +1,146 @@
 <!doctype html>
 <html lang="ja">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>MAVS DAILY | Dallas Mavericks Fan Site</title>
-  <meta name="description" content="Dallas Mavericksの最新ニュース、順位、ロースター、スタッツ、サラリー、ドラフト資産を毎日更新する非公式ファンサイト。">
-  <link rel="stylesheet" href="styles.css">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>MAVS日記 | ダラス・マーベリックス非公式ファンブログ</title>
+<meta name="description" content="ダラス・マーベリックスの最新ニュース、ロースター、スタッツ、サラリー、ドラフト資産をまとめる非公式ファンブログ。">
+<link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<header class="masthead">
-  <div class="masthead-inner">
-    <a class="brand" href="index.html"><span class="brand-mark">M</span><span>MAVS DAILY</span></a>
-    <div class="masthead-meta"><span>UNOFFICIAL</span><span id="updated">Loading…</span></div>
+<header class="site-header">
+  <div class="header-inner">
+    <a class="blog-title" href="./">
+      <span class="logo-box">M</span>
+      <span>
+        <strong>MAVS日記</strong>
+        <small>ダラス・マーベリックス非公式ファンブログ</small>
+      </span>
+    </a>
+    <div class="update-badge" id="updated">データ読み込み中…</div>
   </div>
 </header>
 
 <nav class="nav">
   <div class="nav-inner">
-    <a href="#top">TOP</a><a href="#news">NEWS</a><a href="#team">ROSTER</a>
-    <a href="#stats">STATS</a><a href="#salary">SALARY</a><a href="#draft">DRAFT</a>
+    <a href="#top">ホーム</a>
+    <a href="#news">最新ニュース</a>
+    <a href="#roster">選手名鑑</a>
+    <a href="#stats">スタッツ</a>
+    <a href="#salary">サラリー</a>
+    <a href="#draft">ドラフト</a>
   </div>
 </nav>
 
-<main id="top">
-  <section class="lead-grid">
-    <div class="lead-story">
-      <div class="eyebrow">DALLAS MAVERICKS</div>
-      <h1>Everything Mavs.<br><span>Every day.</span></h1>
-      <p>最新ニュース、チーム状況、選手データ、契約・ドラフト資産を1か所で。</p>
-      <div id="hero-record" class="hero-record"></div>
-    </div>
+<main id="top" class="blog-layout">
+  <div class="main-column">
 
-    <aside class="scoreboard">
-      <div class="score-title">TEAM SNAPSHOT</div>
+    <section class="intro-card">
+      <div class="category">MAVSを毎日追いかける</div>
+      <h1>ダラス・マーベリックスを、<br>もっと気軽に、もっと深く。</h1>
+      <p>最新ニュース、選手の成績、サラリー、ドラフト資産まで。Mavsファンとして気になったことを1か所にまとめています。</p>
+      <div id="hero-record" class="record-line"></div>
+    </section>
+
+    <section class="blog-card editor-note">
+      <div class="section-label">今日のひとこと</div>
+      <h2>今日のMavs</h2>
+      <p id="take-text"></p>
+      <div id="take-date" class="post-date"></div>
+    </section>
+
+    <section id="news">
+      <div class="section-heading">
+        <div>
+          <span class="section-kicker">新着</span>
+          <h2>最新ニュース</h2>
+        </div>
+        <span class="section-note">Mavs関連ニュースをまとめて表示</span>
+      </div>
+      <div id="news-list" class="post-list"></div>
+    </section>
+
+    <section id="stats">
+      <div class="section-heading">
+        <div>
+          <span class="section-kicker">数字で見るMavs</span>
+          <h2>2025-26 選手スタッツ</h2>
+        </div>
+      </div>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>選手</th><th>出場</th><th>得点</th><th>リバウンド</th><th>アシスト</th><th>FG%</th><th>3P%</th></tr></thead>
+          <tbody id="stats-body"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section id="roster">
+      <div class="section-heading">
+        <div>
+          <span class="section-kicker">選手名鑑</span>
+          <h2>現在のロースター</h2>
+        </div>
+        <span class="section-note">選手をクリックすると個別ページへ</span>
+      </div>
+      <div id="player-grid" class="player-grid"></div>
+    </section>
+
+    <section id="salary">
+      <div class="section-heading">
+        <div>
+          <span class="section-kicker">契約メモ</span>
+          <h2>2026-27 サラリー状況</h2>
+        </div>
+      </div>
+      <div id="cap-cards" class="cap-grid"></div>
+      <div class="blog-card"><div id="salary-bars"></div></div>
+    </section>
+
+    <section id="draft">
+      <div class="section-heading">
+        <div>
+          <span class="section-kicker">将来資産</span>
+          <h2>ドラフト指名権</h2>
+        </div>
+      </div>
+      <div id="draft-grid" class="draft-grid"></div>
+    </section>
+
+    <section class="disclaimer">
+      <strong>このサイトについて</strong>
+      <p>このサイトは個人による非公式ファンブログです。NBAおよびDallas Mavericksとは関係ありません。ニュース、契約、ドラフト指名権などは変更される場合があります。</p>
+    </section>
+
+  </div>
+
+  <aside class="sidebar">
+    <section class="sidebar-card">
+      <div class="sidebar-title">チーム概要</div>
       <div id="snapshot"></div>
-    </aside>
-  </section>
+    </section>
 
-  <section id="news">
-    <div class="section-title-row"><h2>Top Stories</h2><span>LATEST NEWS</span></div>
-    <div id="news-grid" class="news-grid"></div>
-  </section>
+    <section class="sidebar-card">
+      <div class="sidebar-title">西地区順位</div>
+      <div id="standings"></div>
+    </section>
 
-  <section id="team">
-    <div class="section-title-row"><h2>Roster</h2><span>CLICK A PLAYER</span></div>
-    <div id="player-grid" class="player-grid"></div>
-  </section>
+    <section class="sidebar-card">
+      <div class="sidebar-title">昨季のチームリーダー</div>
+      <div id="leaders"></div>
+    </section>
 
-  <section class="two-col-section">
-    <div id="stats">
-      <div class="section-title-row"><h2>Team Leaders</h2><span>PLAYER STATS</span></div>
-      <div id="leaders" class="leader-list"></div>
-    </div>
-    <div>
-      <div class="section-title-row"><h2>Recent Games</h2><span>RESULTS</span></div>
-      <div id="games" class="panel"></div>
-    </div>
-  </section>
-
-  <section id="salary">
-    <div class="section-title-row"><h2>Salary Board</h2><span>2026-27 CAP HITS</span></div>
-    <div class="panel">
-      <div id="salary-bars"></div>
-    </div>
-  </section>
-
-  <section id="draft">
-    <div class="section-title-row"><h2>Draft Assets</h2><span>FUTURE PICKS</span></div>
-    <div id="draft-grid" class="draft-grid"></div>
-  </section>
-
-  <section class="editorial">
-    <div class="eyebrow">EDITOR'S NOTE</div>
-    <h2>今日のMavs</h2>
-    <p id="take-text"></p>
-    <div id="take-date" class="note-date"></div>
-  </section>
+    <section class="sidebar-card about-box">
+      <div class="sidebar-title">このブログについて</div>
+      <p>Mavsのニュースを追いながら、気になった選手・契約・ドラフト資産を個人的に整理するためのファンブログです。</p>
+    </section>
+  </aside>
 </main>
 
 <footer>
-  <div>MAVS DAILY — Unofficial fan site. Not affiliated with the Dallas Mavericks or NBA.</div>
+  MAVS日記 — ダラス・マーベリックス非公式ファンブログ
 </footer>
+
 <script src="app.js"></script>
 </body>
 </html>

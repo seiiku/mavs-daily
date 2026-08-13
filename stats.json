@@ -3,48 +3,93 @@
   "players": [
     {
       "name": "Cooper Flagg",
-      "gp": "—",
-      "pts": "—",
-      "reb": "—",
-      "ast": "—",
-      "fg": "—",
-      "three": "—"
+      "gp": 70,
+      "pts": 21.0,
+      "reb": 6.7,
+      "ast": 4.5,
+      "fg": "46.8%",
+      "three": "29.5%"
     },
     {
-      "name": "Kyrie Irving",
-      "gp": "—",
-      "pts": "—",
-      "reb": "—",
-      "ast": "—",
-      "fg": "—",
-      "three": "—"
+      "name": "Naji Marshall",
+      "gp": 74,
+      "pts": 15.2,
+      "reb": 4.7,
+      "ast": 3.3,
+      "fg": "51.0%",
+      "three": "29.1%"
     },
     {
       "name": "P.J. Washington",
-      "gp": "—",
-      "pts": "—",
-      "reb": "—",
-      "ast": "—",
-      "fg": "—",
-      "three": "—"
+      "gp": 56,
+      "pts": 14.2,
+      "reb": 7.0,
+      "ast": 1.8,
+      "fg": "45.0%",
+      "three": "32.5%"
+    },
+    {
+      "name": "Max Christie",
+      "gp": 77,
+      "pts": 12.3,
+      "reb": 3.2,
+      "ast": 2.0,
+      "fg": "44.1%",
+      "three": "40.4%"
     },
     {
       "name": "Klay Thompson",
-      "gp": "—",
-      "pts": "—",
-      "reb": "—",
-      "ast": "—",
-      "fg": "—",
-      "three": "—"
+      "gp": 69,
+      "pts": 11.7,
+      "reb": 2.1,
+      "ast": 1.4,
+      "fg": "39.3%",
+      "three": "38.3%"
     },
     {
       "name": "Daniel Gafford",
-      "gp": "—",
-      "pts": "—",
-      "reb": "—",
-      "ast": "—",
-      "fg": "—",
-      "three": "—"
+      "gp": 55,
+      "pts": 9.5,
+      "reb": 6.9,
+      "ast": 1.1,
+      "fg": "65.5%",
+      "three": "0.0%"
+    },
+    {
+      "name": "John Poulakidas",
+      "gp": 13,
+      "pts": 8.8,
+      "reb": 2.3,
+      "ast": 0.8,
+      "fg": "42.9%",
+      "three": "40.3%"
+    },
+    {
+      "name": "Moussa Cisse",
+      "gp": 38,
+      "pts": 4.5,
+      "reb": 5.7,
+      "ast": 0.2,
+      "fg": "57.4%",
+      "three": "0.0%"
+    },
+    {
+      "name": "Dereck Lively II",
+      "gp": 7,
+      "pts": 4.3,
+      "reb": 5.3,
+      "ast": 1.9,
+      "fg": "61.1%",
+      "three": "0.0%"
+    },
+    {
+      "name": "Caleb Martin",
+      "gp": 58,
+      "pts": 3.9,
+      "reb": 2.5,
+      "ast": 1.4,
+      "fg": "45.0%",
+      "three": "35.1%"
     }
   ]
 }
