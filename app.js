@@ -81,10 +81,23 @@ async function load(){
     <div class="bar-money">${money(p.cap_hit)}</div>
   </div>`).join("");
 
+ $("draft-updated").textContent=picks.as_of?`${picks.as_of}時点`:"";
+ $("draft-summary").innerHTML=`
+  <strong>${esc(picks.summary_title||"指名権の概況")}</strong>
+  <p>${esc(picks.summary||"")}</p>
+  ${picks.source_url?`<a href="${esc(picks.source_url)}" target="_blank" rel="noopener">条件の参照元を見る</a>`:""}`;
+
  $("draft-grid").innerHTML=picks.years.map(y=>`
   <div class="draft-card">
     <div class="draft-year">${y.year}年</div>
-    ${y.picks.map(p=>`<div class="pick"><span class="round">${p.round==="1st"?"1巡目":"2巡目"}</span>${esc(p.detail)}</div>`).join("")}
+    ${y.picks.map(p=>`
+      <div class="pick">
+        <div class="pick-heading">
+          <span class="round">${p.round==="1st"?"1巡目":"2巡目"}</span>
+          ${p.status?`<span class="pick-status ${esc(p.tone||"")}">${esc(p.status)}</span>`:""}
+        </div>
+        <div class="pick-detail">${esc(p.detail)}</div>
+      </div>`).join("")}
   </div>`).join("");
 
  $("take-text").textContent=take.text;

@@ -1,7 +1,8 @@
 name: Daily Mavericks update
 on:
   schedule:
-    - cron: "15 21 * * *"
+    # 毎日 日本時間 6:00 頃（UTC 21:00）
+    - cron: "0 21 * * *"
   workflow_dispatch:
 permissions:
   contents: write

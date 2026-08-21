@@ -327,6 +327,21 @@ td{font-size:.84rem}
   grid-template-columns:repeat(2,1fr);
   gap:12px;
 }
+.draft-summary{
+  background:var(--soft);
+  border:1px solid #cfe1eb;
+  border-left:5px solid var(--blue);
+  border-radius:10px;
+  padding:16px 18px;
+  margin-bottom:12px;
+  font-size:.82rem;
+}
+.draft-summary p{margin:4px 0}
+.draft-summary a{
+  color:var(--blue);
+  font-size:.7rem;
+  font-weight:700;
+}
 .draft-card{
   background:#fff;
   border:1px solid var(--line);
@@ -343,6 +358,17 @@ td{font-size:.84rem}
   padding-top:9px;
   font-size:.78rem;
 }
+.pick-heading{
+  display:flex;
+  align-items:center;
+  flex-wrap:wrap;
+  gap:6px;
+  margin-bottom:6px;
+}
+.pick-detail{
+  color:#3f4b55;
+  line-height:1.65;
+}
 .round{
   display:inline-block;
   background:var(--navy);
@@ -351,7 +377,20 @@ td{font-size:.84rem}
   border-radius:4px;
   font-size:.62rem;
   font-weight:800;
-  margin-right:5px;
+}
+.pick-status{
+  display:inline-block;
+  padding:2px 7px;
+  border-radius:999px;
+  background:#eef1f4;
+  color:#46525d;
+  font-size:.62rem;
+  font-weight:800;
+}
+.pick-status.owned{background:#e4f5ec;color:#17613e}
+.pick-status.outgoing{background:#fbe9e8;color:#8b2f2a}
+.pick-status.swap{background:#e7effb;color:#24538b}
+.pick-status.conditional{background:#fff2d8;color:#7b5710}
 }
 
 .sidebar{
