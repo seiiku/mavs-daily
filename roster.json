@@ -1,16 +1,16 @@
 {
-  "source": "ESPN roster, checked 2026-08-13",
+  "source": "ESPN API",
   "players": [
     {
-      "number": "—",
+      "number": "34",
       "name": "Santi Aldama",
       "position": "F",
       "age": 25,
       "status": "Active",
-      "salary": 17007043
+      "salary": null
     },
     {
-      "number": "—",
+      "number": "13",
       "name": "Tarik Biberovic",
       "position": "F",
       "age": 25,
@@ -18,18 +18,18 @@
       "salary": null
     },
     {
-      "number": "00",
+      "number": "0",
       "name": "Max Christie",
       "position": "G",
       "age": 23,
       "status": "Active",
-      "salary": 8285714
+      "salary": null
     },
     {
       "number": "30",
       "name": "Moussa Cisse",
       "position": "C",
-      "age": 23,
+      "age": 24,
       "status": "Active",
       "salary": null
     },
@@ -47,22 +47,22 @@
       "position": "F",
       "age": 19,
       "status": "Active",
-      "salary": 14517480
+      "salary": null
     },
     {
       "number": "21",
       "name": "Daniel Gafford",
-      "position": "F/C",
-      "age": 27,
+      "position": "F",
+      "age": 28,
       "status": "Active",
-      "salary": 17263584
+      "salary": null
     },
     {
-      "number": "13",
+      "number": "9",
       "name": "Jett Howard",
-      "position": "G/F",
-      "age": 22,
-      "status": "Two-way",
+      "position": "G",
+      "age": 23,
+      "status": "Active",
       "salary": null
     },
     {
@@ -70,14 +70,6 @@
       "name": "Kyrie Irving",
       "position": "G",
       "age": 34,
-      "status": "Injured",
-      "salary": 39416562
-    },
-    {
-      "number": "—",
-      "name": "Vsevolod Ishchenko",
-      "position": "G/F",
-      "age": 21,
       "status": "Active",
       "salary": null
     },
@@ -90,11 +82,11 @@
       "salary": null
     },
     {
-      "number": "—",
+      "number": "33",
       "name": "Tobi Lawal",
       "position": "F",
       "age": 23,
-      "status": "Two-way",
+      "status": "Active",
       "salary": null
     },
     {
@@ -103,7 +95,15 @@
       "position": "C",
       "age": 22,
       "status": "Active",
-      "salary": 7239130
+      "salary": null
+    },
+    {
+      "number": "5",
+      "name": "Seth Lundy",
+      "position": "G",
+      "age": 26,
+      "status": "Active",
+      "salary": null
     },
     {
       "number": "3",
@@ -111,15 +111,15 @@
       "position": "F",
       "age": 28,
       "status": "Active",
-      "salary": 9428571
+      "salary": null
     },
     {
       "number": "16",
       "name": "Caleb Martin",
       "position": "F",
-      "age": 30,
+      "age": 31,
       "status": "Active",
-      "salary": 10001494
+      "salary": null
     },
     {
       "number": "1",
@@ -130,36 +130,36 @@
       "salary": null
     },
     {
+      "number": "7",
+      "name": "Dwight Powell",
+      "position": "F",
+      "age": 35,
+      "status": "Active",
+      "salary": null
+    },
+    {
       "number": "10",
       "name": "Zaccharie Risacher",
       "position": "F",
       "age": 21,
       "status": "Active",
-      "salary": 13826040
+      "salary": null
     },
     {
-      "number": "25",
+      "number": "8",
       "name": "Marcus Sasser",
       "position": "G",
-      "age": 25,
+      "age": 26,
       "status": "Active",
-      "salary": 5198983
-    },
-    {
-      "number": "31",
-      "name": "Klay Thompson",
-      "position": "G",
-      "age": 36,
-      "status": "Active",
-      "salary": 17460317
+      "salary": null
     },
     {
       "number": "25",
       "name": "P.J. Washington",
       "position": "F",
-      "age": 27,
+      "age": 28,
       "status": "Active",
-      "salary": 19813044
+      "salary": null
     }
   ]
 }
