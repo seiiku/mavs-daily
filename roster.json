@@ -42,6 +42,14 @@
       "salary": null
     },
     {
+      "number": "—",
+      "name": "Jorge Diaz Graham",
+      "position": "F",
+      "age": 23,
+      "status": "Active",
+      "salary": null
+    },
+    {
       "number": "32",
       "name": "Cooper Flagg",
       "position": "F",
