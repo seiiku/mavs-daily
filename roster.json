@@ -2,6 +2,14 @@
   "source": "ESPN API",
   "players": [
     {
+      "number": "—",
+      "name": "Quincy Acy",
+      "position": "F",
+      "age": 36,
+      "status": "Active",
+      "salary": null
+    },
+    {
       "number": "34",
       "name": "Santi Aldama",
       "position": "F",
@@ -38,14 +46,6 @@
       "name": "Sergio de Larrea",
       "position": "F",
       "age": 20,
-      "status": "Active",
-      "salary": null
-    },
-    {
-      "number": "—",
-      "name": "Jorge Diaz Graham",
-      "position": "F",
-      "age": 23,
       "status": "Active",
       "salary": null
     },
@@ -106,14 +106,6 @@
       "salary": null
     },
     {
-      "number": "5",
-      "name": "Seth Lundy",
-      "position": "G",
-      "age": 26,
-      "status": "Active",
-      "salary": null
-    },
-    {
       "number": "3",
       "name": "Naji Marshall",
       "position": "F",
@@ -126,14 +118,6 @@
       "name": "Caleb Martin",
       "position": "F",
       "age": 31,
-      "status": "Active",
-      "salary": null
-    },
-    {
-      "number": "1",
-      "name": "John Poulakidas",
-      "position": "G",
-      "age": 23,
       "status": "Active",
       "salary": null
     },
