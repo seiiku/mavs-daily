@@ -34,6 +34,14 @@
       "salary": null
     },
     {
+      "number": "4",
+      "name": "Walter Clayton Jr.",
+      "position": "G",
+      "age": 23,
+      "status": "Active",
+      "salary": null
+    },
+    {
       "number": "55",
       "name": "Sergio de Larrea",
       "position": "F",
